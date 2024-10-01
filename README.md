@@ -16,7 +16,7 @@ _G.TracerOn = true
 _G.DistanceOn = true
 
 -- The lower the interval the smoother the tracers and stuff but with the cost of FPS drops
-_G.UPDATE_INTERVAL = .02
+_G.UPDATE_INTERVAL = .1
 
 -- Spawn BEFORE executing btw
 
