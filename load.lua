@@ -15,4 +15,6 @@ elseif game.PlaceId == 2797881676 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadEspPoint/main/BadEspPoint/TheFinancier.lua"))()
 elseif game.PlaceId == 2951213182 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadEspPoint/main/BadEspPoint/TheWithdrawal.lua"))()
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadEspPoint/main/BadEspPoint/TheDeposit.lua"))()
 end
