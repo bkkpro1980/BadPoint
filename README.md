@@ -1,5 +1,5 @@
-# BadEspPoint
- a super bad esp for entry point
+# BadPoint
+ a super bad script for entry point
 
 ```lua
 --[[This is made by
@@ -10,10 +10,12 @@
 ██████╔╝██║  ██╗██║  ██╗██║     ██║  ██║╚██████╔╝ ██║ █████╔╝╚█████╔╝╚██████╔╝
 ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝  ╚════╝  ╚═════╝
 ]]
--- The lower the interval the smoother the tracers and stuff but with the cost of FPS drops
-_G.UPDATE_INTERVAL = .1
 
--- Spawn BEFORE executing btw
+print("Enjoy using this fucked up script! :D")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadEspPoint/main/main.lua"))()
+-- The lower the interval the smoother the stuff but with the cost of FPS drops
+_G.UPDATE_INTERVAL = .1 -- Tracers update interval
+_G.updateFrequency = .005 -- Telekinesis system interval (lower = less buggy)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/main.lua"))()
 ```
