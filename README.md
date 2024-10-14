@@ -11,7 +11,7 @@
 ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚═╝ ╚════╝  ╚════╝  ╚═════╝
 ]]
 
-print("Enjoy using this fucked up script! :D")
+print("Enjoy using this script! :D")
 
 -- The lower the interval the smoother the stuff but with the cost of FPS drops
 _G.UPDATE_INTERVAL = .1 -- Tracers update interval
@@ -21,10 +21,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/m
 ```
 
 UPDATE! DD/MM/YY
-12/10/2024
+14/10/2024 15:23 GMT+7
 ```diff
-+ Telekinesis through glass and ballistic shields.
-+ No more error explosions in the console. (hopefully)
-+ ESP for The Lakehouse's head of security and SIC in The Scientist.
-+ Infinite Yield and Dex.
++ Added 2 new buttons to kill Rivera/Rose.
 ```
