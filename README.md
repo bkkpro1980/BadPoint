@@ -18,7 +18,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/m
 ```
 
 UPDATE! DD/MM/YY
-14/10/2024 15:23 GMT+7
+17/10/2024, 22:03, GMT+7
 ```diff
-+ Added 2 new buttons to kill Rivera/Rose.
++ More epic buttons to play around with
 ```
