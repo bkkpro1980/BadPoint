@@ -17,8 +17,11 @@ _G.updateFrequency = .005 -- Telekinesis system interval (lower = less buggy)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/main.lua"))()
 ```
 
-UPDATE! DD/MM/YY
-17/10/2024, 22:03, GMT+7
+UPDATE! DD/MM/YYYY
+18/10/2024
+15:32 GMT+7
+
 ```diff
-+ More epic buttons to play around with
++ Inf ammo toggle
++ Shield deleter
 ```
