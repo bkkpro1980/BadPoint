@@ -37,7 +37,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/m
 
 UPDATE! DD/MM/YYYY
 23/10/2024
-14:52 GMT+7
+21:59 GMT+7
 
 ```diff
 + new test gui avaliable
