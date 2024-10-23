@@ -17,12 +17,29 @@ getgenv().updateFrequency = .005 -- Telekinesis system interval (lower = less bu
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/main.lua"))()
 ```
 
+```lua
+--[[This is made by
+░█▀▄░█░█░█░█░█▀█░█▀▄░█▀█░▀█░░▄▀▄░▄▀▄░▄▀▄
+░█▀▄░█▀▄░█▀▄░█▀▀░█▀▄░█░█░░█░░░▀█░▄▀▄░█░█
+░▀▀░░▀░▀░▀░▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀▀░░░▀░░░▀░
+]]
+
+print("This is an indev gui, please give feedbacks to the developer.")
+print("Enjoy using this script! :D")
+
+-- The lower the interval the smoother the stuff but with the cost of FPS drops
+getgenv().UPDATE_INTERVAL = .1 -- Tracers update interval
+getgenv().updateFrequency = .005 -- Telekinesis system interval (lower = less buggy)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/main-testgui.lua"))()
+```
+
+
 UPDATE! DD/MM/YYYY
 23/10/2024
 14:52 GMT+7
 
 ```diff
-+ brought back old gui
-+ unlock all doors toggle
-+ life is good, i think
++ new test gui avaliable
++ more stuff in test gui
 ```
