@@ -37,10 +37,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/m
 
 UPDATE! DD/MM/YYYY
 24/10/2024
-02:34 GMT+7
+20:40 GMT+7
 
 ```diff
-+ New test gui available
-+ More stuff in test gui
-+ Autocomplete system in the test gui
++ New test GUI available
++ More stuff in the test GUI
++ New startup function in the test GUI
 ```
