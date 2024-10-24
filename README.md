@@ -18,7 +18,7 @@ getgenv().updateFrequency = .005 -- Telekinesis system interval (lower = less bu
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/main.lua"))()
 ```
 
-<video src="https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/Showcases/badpoint-showcase2" width="1280" height="720"></video>
+<video src="https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/Showcases/badpoint-showcase2.mp4" width="1280" height="720"></video>
 
 ```lua
 --[[This is made by
