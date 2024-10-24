@@ -8,6 +8,7 @@
 ░▀▀░░▀░▀░▀░▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀▀░░░▀░░░▀░
 ]]
 
+print("This gui will not be regularly updated.")
 print("Enjoy using this script! :D")
 
 -- The lower the interval the smoother the stuff but with the cost of FPS drops
@@ -16,6 +17,8 @@ getgenv().updateFrequency = .005 -- Telekinesis system interval (lower = less bu
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/main.lua"))()
 ```
+
+[![Showcase2](https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/Showcases/badpoint-showcase2.mp4)]
 
 ```lua
 --[[This is made by
