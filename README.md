@@ -37,11 +37,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/m
 ```
 
 TEST-GUI UPDATE! 
-DATE: DD/MM/YYYY 26/10/2024
-TIME: 17:36 GMT+7
+DATE: DD/MM/YYYY 27/10/2024
+TIME: 00:20 GMT+7
 
 ```diff
 + New test Gui available
 + More stuff in the test Gui
 + Keybinds function in the test Gui
++ Reverted telekinesis to a better version
++ Bug fixes
++ Changed obfuscator
 ```
