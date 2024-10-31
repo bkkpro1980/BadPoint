@@ -43,8 +43,6 @@ TIME: 00:20 GMT+7
 ```diff
 + New test Gui available
 + More stuff in the test Gui
-+ Keybinds function in the test Gui
-+ Reverted telekinesis to a better version
++ Hitbox expander
 + Bug fixes
-+ Changed obfuscator
 ```
