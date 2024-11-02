@@ -23,8 +23,8 @@ DATE: DD/MM/YYYY 1/11/2024
 TIME: 20:52 GMT+7
 
 ```diff
-+ Removed key system
-+ Bug fixes
++ new functions
++ Some performance issues fixes
 ```
 
 The code block below is an old version with the old GUI, it will not be updated regularly / at all
