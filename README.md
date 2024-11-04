@@ -19,12 +19,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/m
 ```
 
 TEST-GUI UPDATE!
-DATE: DD/MM/YYYY 1/11/2024
-TIME: 20:52 GMT+7
+DATE: DD/MM/YYYY 5/11/2024
+TIME: 00:51 GMT+7
 
 ```diff
-+ new functions
-+ Some performance issues fixes
++ cool telekinesis revamp i guess
 ```
 
 The code block below is an old version with the old GUI, it will not be updated regularly / at all
@@ -43,4 +42,8 @@ getgenv().UPDATE_INTERVAL = .1 -- Tracers update interval
 getgenv().updateFrequency = .005 -- Telekinesis system interval (lower = less buggy)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/main-old.lua"))()
+```
+
+```diff
++ very small fix
 ```
