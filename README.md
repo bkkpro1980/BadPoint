@@ -19,11 +19,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/m
 ```
 
 TEST-GUI UPDATE!
-DATE: DD/MM/YYYY 5/11/2024
-TIME: 00:51 GMT+7
+DATE: DD/MM/YYYY 9/11/2024
+TIME: 14:40 GMT+7
 
 ```diff
-+ cool telekinesis revamp i guess
++ anti multi execute
 ```
 
 The code block below is an old version with the old GUI, it will not be updated regularly / at all
