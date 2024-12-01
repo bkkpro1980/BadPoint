@@ -18,12 +18,12 @@ getgenv().updateFrequency = .005 -- Telekinesis system interval (lower = less bu
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/main.lua"))()
 ```
 
-TEST-GUI UPDATE!
-DATE: DD/MM/YYYY 9/11/2024
-TIME: 14:40 GMT+7
+UPDATE!
+DATE: DD/MM/YYYY 26/11/2024
+TIME: 21:29 GMT+7
 
 ```diff
-+ anti multi execute
++ fixed a fix
 ```
 
 The code block below is an old version with the old GUI, it will not be updated regularly / at all
