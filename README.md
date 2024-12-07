@@ -19,11 +19,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/m
 ```
 
 UPDATE!
-DATE: DD/MM/YYYY 26/11/2024
-TIME: 21:29 GMT+7
+DATE: DD/MM/YYYY 7/12/2024
+TIME: 19:00 GMT+7
 
 ```diff
-+ fixed a fix
++ fixed a fix that i fixed to fix the fix
 ```
 
 The code block below is an old version with the old GUI, it will not be updated regularly / at all
