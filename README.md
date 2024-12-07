@@ -24,6 +24,7 @@ TIME: 19:00 GMT+7
 
 ```diff
 + fixed a fix that i fixed to fix the fix
+- removed tracers cuz it's broken
 ```
 
 The code block below is an old version with the old GUI, it will not be updated regularly / at all
@@ -47,3 +48,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/m
 ```diff
 + very small fix
 ```
+
+### This repository is licensed under CC BY-NC-ND: share with attribution, no commercial use or derivatives.
