@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfilSense</title>
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="InfilSense">
+    <meta property="og:description" content="A script for Entry Point in Roblox">
+    <meta property="og:footer" content="What a nice website.">
+    <meta name="theme-color" content="#FF2323">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="I_HpxEmCQLUUENi6bbaNWAj6Xec5N9OsiAQBg3AcwiA" />
+    <link href="https://db.onlinewebfonts.com/c/c24180c2af724d57980d2fc6363be5da?family=NeoGram+W00+Medium"
+        rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/d50adafd81801bb32e3f05e70166eeab?family=NeoGram+W00+Bold"
+        rel="stylesheet">
+    <style>
+        html,
+        body {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            overflow-x: hidden;
+            min-height: 100vh;
+            background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+            color: #fff;
+            font-family: 'NeoGram W00 Bold', 'NeoGram W00 Medium', Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 95%;
+            padding: 5%;
+            background-color: #0f0f0f;
+        }
+
+        .header a {
+            color: #ccc;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .main-content {
+            text-align: center;
+            z-index: 1;
+            max-width: 95%;
+        }
+
+        .main-content h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            font-family: 'NeoGram W00 Bold', Arial, sans-serif;
+            background-image: linear-gradient(90deg, hsla(19, 74%, 59%, 1) 0%, hsla(0, 75%, 58%, 1) 100%);
+            color: transparent;
+            background-clip: text;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            max-width: 95%;
+            padding: 0 5%;
+            margin-bottom: 32px;
+            color: #94A3B8;
+            font-family: 'NeoGram W00 Medium', Arial, sans-serif;
+        }
+
+        .button1 {
+            display: inline-block;
+            background-color: #7A77FA;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin: 0 8px;
+            margin-bottom: 32px;
+            font-family: 'NeoGram W00 Bold', Arial, sans-serif;
+        }
+
+        .button1 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button1 span:after {
+            content: '⋙';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button1:hover span {
+            padding-right: 25px;
+        }
+
+        .button1:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .button1:hover {
+            opacity: 1;
+            background-color: #3E3BBE;
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            transition: 0.3s;
+        }
+
+        /* BOXES */
+        .card {
+            max-width: 400px;
+            width: 90%;
+            height: auto;
+            aspect-ratio: 400/200;
+            overflow: hidden;
+            font-size: 1.75rem;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(10, 17, 29, 0.25);
+            backdrop-filter: blur(3px);
+            border: 2px solid rgba(255, 255, 255, 0.75);
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+            margin: 20px 0;
+        }
+
+        .card img {
+            max-width: 110%;
+            height: auto;
+            border-radius: 8px;
+            z-index: 1;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            transition: transform 0.3s ease;
+        }
+
+        /* Media queries for better responsiveness */
+        @media screen and (max-width: 750px) {
+            .card {
+                width: 80%;
+                max-width: 300px;
+                padding: 16px;
+            }
+
+            .container {
+                padding: 10px;
+                justify-content: flex-start;
+            }
+
+            .main-content {
+                padding: 10px 0;
+            }
+        }
+
+        @media screen and (orientation: landscape) and (max-height: 600px) {
+            .container {
+                min-height: auto;
+                padding: 20px;
+            }
+
+            .main-content {
+                margin-top: 0;
+            }
+
+            .card {
+                margin: 10px 0;
+            }
+        }
+
+        /* STARS BG */
+        .stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 120%;
+            transform: rotate(-45deg);
+            will-change: transform;
+            overflow: hidden;
+        }
+
+        .star {
+            --star-color: var(--primary-color);
+            --star-tail-length: 6em;
+            --star-tail-height: 2px;
+            --star-width: calc(var(--star-tail-length) / 6);
+            position: absolute;
+            top: var(--top-offset);
+            left: 0;
+            width: var(--star-tail-length);
+            height: var(--star-tail-height);
+            color: var(--star-color);
+            background: linear-gradient(45deg, currentColor, transparent);
+            border-radius: 50%;
+            filter: drop-shadow(0 0 6px currentColor);
+            transform: translate3d(150em, 0, 0);
+            transform-style: preserve-3d;
+            animation: fall var(--fall-duration) var(--fall-delay) linear infinite;
+        }
+
+        /* Optimized timing with maintained off-screen spawn */
+        .star:nth-child(1) { --top-offset: 20vh; --fall-duration: 4s; --fall-delay: 0s; }
+        .star:nth-child(2) { --top-offset: 40vh; --fall-duration: 4.5s; --fall-delay: 0.5s; }
+        .star:nth-child(3) { --top-offset: 60vh; --fall-duration: 3.5s; --fall-delay: 1s; }
+        .star:nth-child(4) { --top-offset: 80vh; --fall-duration: 5s; --fall-delay: 1.5s; }
+        .star:nth-child(5) { --top-offset: 30vh; --fall-duration: 4.2s; --fall-delay: 0.2s; }
+        .star:nth-child(6) { --top-offset: 50vh; --fall-duration: 4.7s; --fall-delay: 0.7s; }
+        .star:nth-child(7) { --top-offset: 70vh; --fall-duration: 3.7s; --fall-delay: 1.2s; }
+        .star:nth-child(8) { --top-offset: 90vh; --fall-duration: 4.2s; --fall-delay: 1.7s; }
+        .star:nth-child(9) { --top-offset: 25vh; --fall-duration: 4.5s; --fall-delay: 0.1s; }
+        .star:nth-child(10) { --top-offset: 45vh; --fall-duration: 4s; --fall-delay: 0.6s; }
+
+        .star::before,
+        .star::after {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: calc(var(--star-width) / -2);
+            width: var(--star-width);
+            height: 100%;
+            background: linear-gradient(45deg, transparent, currentColor, transparent);
+            border-radius: inherit;
+            animation: blink 2s linear infinite;
+        }
+
+        .star::before {
+            transform: rotate(45deg);
+        }
+
+        .star::after {
+            transform: rotate(-45deg);
+        }
+
+        @keyframes fall {
+            from {
+                transform: translate3d(150em, 0, 0);
+            }
+            to {
+                transform: translate3d(-50em, 0, 0);
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0.6;
+            }
+        }
+
+        @media (prefers-reduced-motion: no-preference) {
+            .stars {
+                contain: layout style paint;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="stars">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+        <div class="main-content">
+            <h1>Revolutionizing the future of Entry Point scripts</h1>
+            <p>Elevate your gameplay with cutting-edge scripts designed to deliver a seamless, premium experience.
+                Harness the power of the latest technologies to take your Entry Point adventure to unparalleled heights.
+            </p>
+            <a href="https://github.com/bkkpro1980/InfilSense" target="_blank"
+                class="button1"><span>Github (Script) </span></a>
+            <a href="https://discord.gg/VDQgaCxUtD" target="_blank" class="button1"><span>Discord </span></a>
+        </div>
+        <div class="card">
+            <img src="https://raw.githubusercontent.com/InfilSense/InfilSense.github.io/main/EP_bg.png" alt="Image" class="card-image">
+        </div>
+        <p style="font-size:10px; margin-bottom:24px; position:relative; z-index:9999; xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/bkkpro1980/InfilSense">InfilSense-EP</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/bkkpro1980">Bkkpro1980</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-NC-ND 4.0<img style="height:12px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:12px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:12px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:12px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
+    </div>
+</body>
+
+</html>

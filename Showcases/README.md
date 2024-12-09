@@ -1,1 +1,0 @@
-# No showcases available
