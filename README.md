@@ -1,5 +1,5 @@
-# BadPoint
- a super bad script for entry point
+# InfilSense
+ a very epic script for entry point
 
 ```lua
 --[[This is made by
@@ -12,7 +12,7 @@
 print("This is an indev gui, please give feedbacks to the developer.")
 print("Enjoy using this script! :D")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/InfilSense/main/main.lua"))()
 ```
 
 UPDATE! TIME - DD/MM/YYYY
@@ -35,13 +35,15 @@ The 2 code blocks below is an old version with the old GUI, it will not be updat
 print("This gui will not be regularly updated.")
 print("Enjoy using this script! :D")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/main-old.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/InfilSense/main/main-old.lua"))()
 ```
 
 ```diff
 + fixed a fix that i fixed to fix the fix
 - removed tracers cuz it's broken
 ```
+
+---
 
 ```lua
 --[[This is made by
@@ -51,10 +53,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/m
 ]]
 -- DISCORD = https://discord.gg/VDQgaCxUtD
 
-print("This gui will not be regularly updated.")
-print("Enjoy using this script! :D")
+error("This script is now broken, please use the old version, or the main version.")
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/BadPoint/main/main-original.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/InfilSense/main/main-original.lua"))()
 ```
 
 ```diff
