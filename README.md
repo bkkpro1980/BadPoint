@@ -15,12 +15,13 @@ print("Enjoy using this script! :D")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/InfilSense/main/main.lua"))()
 ```
 
-UPDATE! TIME - DD/MM/YYYY
-23:02 - 8/12/2567
+## Script updated!
+TIME - DD/MM/YYYY GMT+7
+### 20:43 - 10/12/2567
 ```diff
-+ Whole Gui revamp (again)
-+ Easier startup system
-+ Easier keybinds system
++ Redid bring function
++ More bring functions
++ dedicated bring category
 ```
 
 The 2 code blocks below is an old version with the old GUI, it will not be updated regularly / at all
