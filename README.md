@@ -17,11 +17,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/bkkpro1980/InfilSense
 
 ## Script updated!
 TIME - DD/MM/YYYY GMT+7
-### 20:43 - 10/12/2567
+### 00:43 - 14/12/2567
 ```diff
-+ Redid bring function
-+ More bring functions
-+ dedicated bring category
++ adjusted bring functions
++ loopws, and infinite jump functions
++ gui toggle keybind can be set now
 ```
 
 The 2 code blocks below is an old version with the old GUI, it will not be updated regularly / at all
