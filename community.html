@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfilSense Community</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;">
+    <link rel="icon" type="image/x-icon" href="Media/InfilSenseTransparentLogo.png">
+	<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="retrowave-bg animate__animated animate__fadeIn"></div>
+    <div class="retro-tiles">
+        <div class="tile-grid animate__animated animate__slideInUp"></div>
+    </div>
+    <div id="particles-js"></div>
+
+    <header class="header animate__animated animate__fadeInDown">
+        <img src="Media/InfilSenseTransparentLogo.png" alt="InfilSense Logo" class="logo-image" width="40" height="40">
+        <div class="logo glow-effect cyberpunk-text">InfilSense</div>
+        <nav class="header-nav">
+            <a href="index.html" class="nav-link"><img src="Media/HomeIcons.png" alt="Home" width="25" height="25"> Home</a>
+            <a href="community.html" class="nav-link"><img src="Media/PeopleIcon.png" alt="Community" width="25" height="25"> Community</a>
+            <!-- <a href="#contact" class="nav-link"><img src="Media/ContactUs.png" alt="Contact" width="25" height="25"> Contact Us</a> --!>
+        </nav>
+    </header>
+
+    <main class="community-section">
+        <h1 class="section-title gradient-text animate__animated animate__fadeInDown">
+            Join Our Community
+        </h1>
+
+        <div class="community-grid animate__animated animate__fadeInUp">
+            <div class="community-card animate__animated animate__fadeIn">
+                <div class="card-icon">
+                    <img src="Media/DiscordIcon.png" alt="Discord Icon" width="60" height="60">
+                </div>
+                <h3 class="infilsense-gradient">Discord Community</h3>
+                <p>Join our Discord community</p>
+                <a href="https://discord.gg/VDQgaCxUtD" target="_blank" class="community-btn">Join Discord</a>
+            </div>
+<!--
+            <div class="community-card animate__animated animate__fadeIn animate__delay-1s">
+                <div class="card-icon">
+                    <img src="Media/ForumIcon.png" alt="Forum Icon" width="60" height="60">
+                </div>
+                <h3 class="infilsense-gradient">Forums</h3>
+                <p>Discuss scripts, share experiences, and get help from experts</p>
+                <button class="community-btn">Visit Forums</button>
+            </div>
+
+            <div class="community-card animate__animated animate__fadeIn animate__delay-2s">
+                <div class="card-icon">
+                    <img src="Media/TutorialIcon.png" alt="Tutorial Icon" width="60" height="60">
+                </div>
+                <h3 class="infilsense-gradient">Tutorials</h3>
+                <p>Learn from our comprehensive guides and video tutorials</p>
+                <button class="community-btn">View Tutorials</button>
+            </div>
+        </div>
+
+        <div class="community-stats animate__animated animate__fadeInUp animate__delay-3s">
+            <div class="stat-item">
+                <span class="stat-number infilsense-gradient">10K+</span>
+                <span class="stat-label">Community Members</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number infilsense-gradient">5K+</span>
+                <span class="stat-label">Daily Active Users</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number infilsense-gradient">1K+</span>
+                <span class="stat-label">Scripts Shared</span>
+            </div>
+        </div>
+		
+--!>
+    </main>
+
+    <style>
+        .community-section {
+            padding: 120px 5% 50px;
+            min-height: 100vh;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 3.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .community-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .community-card {
+            background: rgba(3, 8, 20, 0.8);
+            border: 1px solid #101420;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .community-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 30px rgba(90, 158, 248, 0.3);
+        }
+
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            color: #5A9EF8;
+        }
+
+        .community-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .community-card p {
+            color: #989BA3;
+            margin-bottom: 1.5rem;
+        }
+
+        .community-btn {
+            background: linear-gradient(45deg, #5A9EF8, #3676EF);
+            border: none;
+            border-radius: 10px;
+            padding: 0.8rem 1.5rem;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .community-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(90, 158, 248, 0.5);
+        }
+
+        .community-stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 5rem;
+            padding: 2rem;
+            background: rgba(3, 8, 20, 0.8);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            display: block;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: #989BA3;
+            font-size: 1.1rem;
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
